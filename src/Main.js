@@ -1,6 +1,6 @@
 import { Component } from "react";
 import HornedBeasts from './HornedBeasts.js';
-import  hornedBeastData from './data.js';
+import beastData from './data.json';
 
 
 
@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
       <>
-        <HornedBeasts title={hornedBeastData.map(data=> <h2>{data.title}</h2>)} img={hornedBeastData.map(data=> data.image_url)} fav={hornedBeastData.map(data => <p>no of favorites</p>)} des={hornedBeastData.map(data=> <p>{data.description}</p>)}/>
+        {beastData.map(info => <HornedBeasts info = {info}/>)}
       
       </> 
       
