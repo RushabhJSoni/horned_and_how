@@ -1,3 +1,15 @@
+# Horned-Beast 
+
+ an application that displays images and information of horned animals. This application will allow the user to filter the images by number of horns and chose their favorite image!
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
