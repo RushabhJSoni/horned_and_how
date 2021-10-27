@@ -41,7 +41,7 @@ class HornedBeasts extends Component {
     {/* <h2>{this.props.info.title}</h2>
     <img src={`${this.props.info.image_url}`} alt={this.props.info.details} /> 
     <Button variant="warning" onClick={this.handleClick}>❤️ {this.state.numberOfFavorites}</Button>
-    {this.props.info.description} */}
+    {this.props.info.description}... */}
     </div>
     )
   }
