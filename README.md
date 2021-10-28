@@ -3,6 +3,31 @@
  an application that displays images and information of horned animals. This application will allow the user to filter the images by number of horns and chose their favorite image!
 
 
+## lab 02
+
+Number and name of feature: added images and favourite button
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 1200 
+
+Finish time: 1530
+
+Actual time needed to complete: 3.5 hours
+
+
+## lab 03
+
+Number and name of feature: Modal
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 1300
+
+Finish time: 1515
+
+Actual time needed to complete: 02:15 mins
+
 
 
 
