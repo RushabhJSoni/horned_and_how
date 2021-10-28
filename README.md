@@ -5,28 +5,28 @@
 
 ## lab 02
 
-Number and name of feature: ________________________________
+Number and name of feature: added images and favourite button
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 3 hours
 
-Start time: _____
+Start time: 1200 
 
-Finish time: _____
+Finish time: 1530
 
-Actual time needed to complete: _____
+Actual time needed to complete: 3.5 hours
 
 
 ## lab 03
 
-Number and name of feature: ________________________________
+Number and name of feature: Modal
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 hours
 
-Start time: _____
+Start time: 1300
 
-Finish time: _____
+Finish time: 1515
 
-Actual time needed to complete: _____
+Actual time needed to complete: 02:15 mins
 
 
 
