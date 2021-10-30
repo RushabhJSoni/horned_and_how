@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Button} from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import SelectedBeast from "./SelectedBeast";
+
 
 
 class HornedBeasts extends Component {
@@ -10,20 +10,18 @@ class HornedBeasts extends Component {
       super(props);
       this.state = {
         numberOfFavorites: 0,
-        show:false,
+        
       }
     }
 
     imgClick = () => {
-        this.setState({show:true});
+        this.props.openModal(this.props.info);
     }
     handleClick = () => {
       this.setState({numberOfFavorites:this.state.numberOfFavorites + 1});
     }
-    hideModal = () => {
-      this.setState({ show: false })
-  }
-
+   
+   
 
   render() {
     return(
@@ -36,10 +34,12 @@ class HornedBeasts extends Component {
         <Button variant="warning" onClick={this.handleClick}>❤️ {this.state.numberOfFavorites}</Button>
         </Card.Body>
     </Card>
-    <SelectedBeast show ={this.state.show} hideModal={this.hideModal} head={this.props.info.title} img={this.props.info.image_url} desc={this.props.info.description} click={this.state.numberOfFavorites} handleClick={this.handleClick}/>
     </div>
     )
   }
 }
 
 export default HornedBeasts;
+
+
+ {/* <SelectedBeast click={this.state.numberOfFavorites} handleClick={this.handleClick}/> */}
